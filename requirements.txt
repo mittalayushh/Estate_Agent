@@ -1,19 +1,44 @@
+# Core ML
 joblib
 pandas
-pydantic
-langchain-core
-langgraph
-streamlit
-python-dotenv
-chromadb
-faiss-cpu
+numpy
 scikit-learn
 xgboost
+
+# LangChain & LangGraph
 langchain
-langchain-openai
+langchain-core
 langchain-community
 langchain-text-splitters
 langchain-huggingface
-openai
-langchain-core
 langgraph
+
+# Vector Store & Embeddings
+chromadb
+langchain-chroma
+faiss-cpu
+sentence-transformers
+
+# LLM Providers
+langchain-groq
+langchain-openai
+openai
+
+# Protobuf (pin to avoid tensorflow/streamlit conflict)
+protobuf>=3.20,<5
+
+# Data Validation
+pydantic
+
+# Web UI
+streamlit
+
+# PDF Processing
+pypdf
+
+# PDF Report Generation
+reportlab
+matplotlib
+
+# Environment
+python-dotenv
