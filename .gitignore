@@ -28,8 +28,8 @@ env/
 .DS_Store
 Thumbs.db
 
-# Vector store (rebuilt on deploy)
-data/vector_store/
+# Vector store (include for cloud deployment)
+# data/vector_store/
 
 # Streamlit
 .streamlit/secrets.toml
